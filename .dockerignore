@@ -1,9 +1,11 @@
 .git
 .gitignore
+.dockerignore
 .venv
 venv
 env
 __pycache__
+**/__pycache__/
 *.py[cod]
 *.egg-info
 build
@@ -25,3 +27,5 @@ htmlcov
 .DS_Store
 Thumbs.db
 Desktop.ini
+payload.json
+result.json
